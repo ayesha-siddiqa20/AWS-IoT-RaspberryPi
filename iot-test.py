@@ -6,7 +6,7 @@ from datetime import datetime
 
 # AWS IoT Core configuration
 
-ENDPOINT = "advfvm2tfpzra-ats.iot.us-east-1.amazonaws.com"
+ENDPOINT = ""
 PORT = 8883
 SENSOR_TOPIC = "raspi/data"
 DEVICE_CERT = "certs/device.pem.crt"
