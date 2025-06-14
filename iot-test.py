@@ -9,9 +9,9 @@ from datetime import datetime
 ENDPOINT = ""
 PORT = 8883
 SENSOR_TOPIC = "raspi/data"
-DEVICE_CERT = "certs/device.pem.crt"
-PRIVATE_KEY = "certs/a-private.pem.key"
-ROOT_CERT = "certs/AmazonRootCA1.pem"
+DEVICE_CERT = ""
+PRIVATE_KEY = ""
+ROOT_CERT = ""
 QOS_LEVEL = 1
 sense = SenseHat()
 sense.clear()
