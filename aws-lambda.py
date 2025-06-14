@@ -31,7 +31,7 @@ def lambda_handler(event, context):
         
         # Convert float values to Decimal for DynamoDB
         item = {
-            'ID': event['ID'],
+            'ID': str(event['ID']),
             'Temperature': Decimal(str(event['Temperature'])),
             'Humidity': Decimal(str(event['Humidity'])),
             'Pressure': Decimal(str(event['Pressure'])),
